@@ -6,3 +6,4 @@ def my_type(el):
         print(type(list[el]))
     return
 my_type(list)
+
