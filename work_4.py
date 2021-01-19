@@ -4,5 +4,5 @@ words = input(f"Введите строку из нескольких слов �
 my_word = words.split()
 for i, el in enumerate(my_word, 1):
     if len(el) > 10:
-        el = el[1:10]
+        el = el[0:10]
     print(f'{i}. {el}')
